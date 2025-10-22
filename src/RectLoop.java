@@ -118,6 +118,37 @@ public class RectLoop extends MyFrame2 {
 }
 */
 
+//失敗
+/*
+public class RectLoop extends MyFrame2 {
+	public void run() {
+		
+		int y = 50;
+		for (int i=0 ; i<10 ; i++) {
+			
+			int x=30;
+			for(int j=0 ; j<10 ; j++) {
+				fillRect(x,y,10,10);
+				setColor(0,40+5*(i+j),0);
+				//int a=90+10*(i+j);
+				x+=20;
+				//System.out.println(a);
+			}
+			y+=20;
+		}	
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("プログラムを実行します");
+		MyFrame2 frame1=new RectLoop();
+		frame1.setLocation(200,100);
+		frame1.setSize(300,400);
+
+	}
+}
+*/
+
+
 public class RectLoop extends MyFrame2 {
 	public void run() {
 		
